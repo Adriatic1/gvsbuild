@@ -7,8 +7,8 @@
     <GlibEtcInstallRoot>$(SolutionDir)\..\..\..\..\..\..\gtk\$(Platform)\$(Configuration)</GlibEtcInstallRoot>
     <CopyDir>..\..\..\libsoup-rel</CopyDir>
     <SoupMajorVersion>2</SoupMajorVersion>
-    <SoupMinorVersion>58</SoupMinorVersion>
-    <SoupMicroVersion>0</SoupMicroVersion>
+    <SoupMinorVersion>62</SoupMinorVersion>
+    <SoupMicroVersion>1</SoupMicroVersion>
     <ApiVersion>2.4</ApiVersion>
     <SoupLibtoolCompatibleDllPrefix>lib</SoupLibtoolCompatibleDllPrefix>
     <SoupLibtoolCompatibleDllSuffix>-$(ApiVersion)-0</SoupLibtoolCompatibleDllSuffix>
@@ -16,7 +16,7 @@
     <SoupSeparateVSDllSuffix>-$(ApiVersion)</SoupSeparateVSDllSuffix>
     <SoupDllPrefix>$(SoupSeparateVSDllPrefix)</SoupDllPrefix>
     <SoupDllSuffix>$(SoupSeparateVSDllSuffix)</SoupDllSuffix>
-    <PythonPath>c:\python34</PythonPath>
+    <PythonPath>c:\python36</PythonPath>
   </PropertyGroup>
   <PropertyGroup>
     <_PropertySheetDisplayName>soupversionpathsprops</_PropertySheetDisplayName>

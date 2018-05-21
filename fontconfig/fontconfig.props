@@ -5,8 +5,8 @@
 	</PropertyGroup>
 	<ItemDefinitionGroup>
 		<ClCompile>
-			<AdditionalIncludeDirectories>..\..\..\..\gtk\$(Platform)\$(Configuration)\include;..\..\..\..\gtk\$(Platform)\$(Configuration)\include\libxml2</AdditionalIncludeDirectories>
-			<PreprocessorDefinitions>WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>..\..\..\..\gtk\$(Platform)\$(Configuration)\include;..\..\..\..\gtk\$(Platform)\$(Configuration)\include\freetype2;..\..\..\..\gtk\$(Platform)\$(Configuration)\include\libxml2</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>FcPublic=__declspec(dllexport);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
 		</ClCompile>
 		<Link>
 			<!--AdditionalDependencies></AdditionalDependencies-->
